@@ -2,8 +2,17 @@
  * Your code here!
  ******************************************************************************/
 
+const soda = getInput(0);
 
-
+if (soda % 5 === 0 && soda % 3 === 0) {
+  console.log("FizzBuzz");
+} else if (soda % 5 === 0) {
+  console.log("Buzz");
+} else if (soda % 3 === 0) {
+  console.log("Fizz")
+} else {
+  console.log(soda)
+}
 
 
 /*******************************************************************************
